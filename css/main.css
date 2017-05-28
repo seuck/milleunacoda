@@ -18,7 +18,7 @@ a:hover {
 
 #content {
 	background-color: #FFFFFF;
-	background-image: url(images/t_middle.gif);
+	background-image: url(../images/t_middle.gif);
 	background-repeat: repeat-y;
 	background-position: left top;
 	width: 946px;
@@ -30,7 +30,7 @@ a:hover {
 
 #content_in {
 	padding: 20px 36px;
-	background: url(images/t_bottom.gif) no-repeat left bottom;
+	background: url(../images/t_bottom.gif) no-repeat left bottom;
 	overflow: hidden;
 	text-align: left;
 }
@@ -132,7 +132,7 @@ h3 img {
 	width: 536px;
 	float: left;
 	padding: 20px;
-	background-image: url(images/zampe.gif);
+	background-image: url(../images/zampe.gif);
 	background-repeat: no-repeat;
 	background-position: center center;
 	margin-top: 0px;
@@ -295,7 +295,7 @@ h3 img {
 
 #box_personaggi .content {
 	text-align: left;
-	background-image: url(images/box_personaggi_middle.gif);
+	background-image: url(../images/box_personaggi_middle.gif);
 	background-repeat: repeat-y;
 	background-position: left top;
 	padding-right: 40px;
