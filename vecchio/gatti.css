@@ -1,0 +1,8 @@
+.testo { font-family: Arial, Helvetica, sans-serif; font-size: 14px ; text-align: center; line-height: 30px}
+.personaggi { font-family: Arial, Helvetica, sans-serif; font-size: 14px ; text-align: left; line-height: 30px }
+body {  background-repeat: no-repeat; background-position: center center}
+.foto {  height: 0px; width: 0px; left: 0px; top: 0px; clip:  rect(   )}
+.giustificato {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 25px; text-align: justify}
+.testosinistra {
+font-family: Arial, Helvetica, sans-serif; font-size: 14px ; text-align: left; line-height: 30px
+}

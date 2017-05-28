@@ -1,0 +1,321 @@
+body {
+	background-color: #f6e0a5;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+}
+
+a {
+	color: #0066CC;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#content {
+	background-color: #FFFFFF;
+	background-image: url(images/t_middle.gif);
+	background-repeat: repeat-y;
+	background-position: left top;
+	width: 946px;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+
+#content_in {
+	padding: 20px 36px;
+	background: url(images/t_bottom.gif) no-repeat left bottom;
+	overflow: hidden;
+	text-align: left;
+}
+
+#content blockquote {
+	font-style: italic;
+}
+ 
+#header {
+	text-align: left;
+	margin: 0px 20px 20px 20px;
+	position: relative;
+}
+
+#header .autrice {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	right: 0px;
+	bottom: 0px;
+	position: absolute;
+}
+
+#breadcrumb {
+	margin:0px 20px 20px 20px;
+	text-align: left;
+	overflow: hidden;
+}
+
+.versi h1 {
+	color: #D58F00;
+}
+
+h1 {
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+h3 {
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h3 img {
+	margin-left: 10px;
+}
+
+#gattoteca {
+	padding: 20px;
+	margin: 0px 20px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+
+#gattoteca .logo {
+	padding: 0px;
+	margin: 0px 0px 20px 0px;
+	display: block;
+}
+
+#gattoteca .cornice {
+	text-align: center;
+	vertical-align: middle;
+	width: 794px;
+	padding-top: 94px;
+	padding-bottom: 94px;
+	background-position: 0 0;
+	background-repeat: repeat;
+	overflow: hidden;
+}
+
+#gattoteca ul.miniature {
+	display: block;
+	margin-left: 10px;
+	margin-top: 40px;
+	overflow: hidden;
+}
+
+#gattoteca ul.miniature li {
+	float: left;
+	width: 90px;
+	display: inline;
+	padding-right: 30px;
+	padding-bottom: 20px;
+}
+
+.sottotitolo {
+	margin: 0px 10px;
+	padding: 0px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.box {
+	width: 536px;
+	float: left;
+	padding: 20px;
+	background-image: url(images/zampe.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+
+.box ul {
+	margin: 0px 0px 20px 20px;
+	padding: 0px;
+}
+
+.box li {
+	display: block;
+	margin: 0px 0px 15px 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+
+#spalla {
+	width: 218px;
+	float: right;
+	padding: 20px;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	display: block;
+}
+
+#spalla ul {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+#spalla li {
+	padding: 0 0 20px 0;
+	margin: 0;
+	display: block;
+}
+
+#spalla .preview {
+	padding: 20px;
+	text-align: center;
+}
+
+#spalla .preview a.miniatura {
+	display: block;
+}
+
+#spalla .preview a.testo {
+	display: block;
+}
+
+.spalla img {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+#spalla .elemento {
+	padding: 0px;
+	text-align: left;
+}
+
+#spalla .elemento .titolo,
+#spalla .elemento .didascalia {
+	display: block;
+}
+
+.storia {
+	color: #333333;
+	padding-top: 20px;
+}
+
+.storia h1,
+.storia h2,
+.storia h3 {
+	display: block;
+}
+
+.storia h1 {
+	font-size: 22px;
+	margin-bottom: 20px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.storia h2 {
+	font-size: 18px;
+	padding: 0px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+}
+
+.storia h3 {
+	font-size: 16px;
+	padding: 0px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+
+.storia .titolo {
+	text-align: center;
+	margin: 0px 40px 40px 40px;
+}
+
+.storia .dx {
+	float: right;
+	width: 50%;
+	padding: 0px 10px;
+	position: relative;
+	text-align: left;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.storia .versi {
+	padding: 0px 10px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.storia .dx img.lato {
+	position: absolute;
+	right: 500px;
+}
+
+.storia img.centro {
+	margin: 20px 0px 0px 0px;
+}
+
+#box_personaggi {
+	clear: both;
+	text-align: center;
+	width: 680px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	padding: 0px;
+}
+
+#box_personaggi img {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	overflow: hidden;
+	display: block;
+}
+
+#box_personaggi .content {
+	text-align: left;
+	background-image: url(images/box_personaggi_middle.gif);
+	background-repeat: repeat-y;
+	background-position: left top;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+#box_personaggi blockquote {
+	padding: 0px;
+	margin: 0px 0px 0px 20px;
+	font-style: italic;
+}
+
+#box_personaggi .content p {
+	padding: 10px 0px 0px 0px;
+	margin: 0px;
+	display: block;
+}
+
+#footer {
+  clear: both;
+  padding-top: 20px;
+  text-align: center;
+}
